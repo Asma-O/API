@@ -2,17 +2,13 @@ package APIRestAssured.testCases;
 
 import APIRestAssured.BaseForEachRequest.baseClass;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.io.File;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-public class loginTest extends baseClass {
+public class casesTest extends baseClass {
 
 
     @Test
